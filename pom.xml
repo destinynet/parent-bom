@@ -77,86 +77,83 @@
       <dependency>
         <groupId>javax.annotation</groupId>
         <artifactId>javax.annotation-api</artifactId>
-        <version>[1.3.2,)</version>
+        <version>1.3.2</version>
       </dependency>
-
       <dependency>
-        <groupId>com.intellij</groupId>
+        <groupId>org.jetbrains</groupId>
         <artifactId>annotations</artifactId>
-        <version>12.0</version>
+        <version>19.0.0</version>
       </dependency>
-
-
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>[4.12,)</version>
+        <version>4.13</version>
         <scope>test</scope>
       </dependency>
 
 
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-charts</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-core-impl</artifactId>
         <version>${destiny.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-resources</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-tools</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-ee</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-iching</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-oracles</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-web</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-wicket</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>destiny-gauquelin</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>chat-tools</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>${project.groupId}</groupId>
+        <groupId>destiny</groupId>
         <artifactId>data-core</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -205,6 +202,7 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
         <version>${spring.version}</version>
+        <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
@@ -265,12 +263,12 @@
       <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
-        <version>1.9.3</version>
+        <version>1.9.4</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.9</version> <!-- 2018-09 -->
+        <version>3.10</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -281,6 +279,11 @@
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>2.6</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-configuration2</artifactId>
+        <version>2.7</version>
       </dependency>
 
       <dependency>
@@ -319,7 +322,7 @@
       <dependency>
         <groupId>io.github.microutils</groupId>
         <artifactId>kotlin-logging</artifactId>
-        <version>1.7.8</version>
+        <version>1.7.9</version>
         <scope>compile</scope>
       </dependency>
 
@@ -332,7 +335,7 @@
       <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjweaver</artifactId>
-        <version>1.9.2</version>
+        <version>1.9.5</version>
         <scope>runtime</scope>
       </dependency>
       <!--<dependency>-->
@@ -360,12 +363,38 @@
         <artifactId>fuel</artifactId>
         <version>2.2.1</version>
       </dependency>
+      <dependency>
+        <groupId>org.threeten</groupId>
+        <artifactId>threeten-extra</artifactId>
+        <version>1.5.0</version>
+      </dependency>
 
+      <!--
+        https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+        java 9 沒有 jaxb , mailApi
+      -->
+      <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>javax.mail</groupId>
+        <artifactId>mailapi</artifactId>
+        <version>1.4.3</version>
+      </dependency>
+      <!-- to solve NoSuchProviderException smtp -->
+      <dependency>
+        <groupId>com.sun.mail</groupId>
+        <artifactId>javax.mail</artifactId>
+        <version>1.6.2</version>
+      </dependency>
 
       <dependency>
         <groupId>javax</groupId>
         <artifactId>javaee-api</artifactId>
         <version>8.0</version>
+        <scope>provided</scope>
       </dependency>
 
     </dependencies>
