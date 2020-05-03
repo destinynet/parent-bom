@@ -22,7 +22,7 @@
     <slf4j.version>1.7.28</slf4j.version>
     <hibernate.version>5.4.13.Final</hibernate.version>
     <mysql.version>8.0.19</mysql.version>
-    <httpclient.version>4.5.7</httpclient.version>
+    <httpclient.version>4.5.12</httpclient.version>
     <guice.version>3.0</guice.version>
   </properties>
 
@@ -200,6 +200,11 @@
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
+        <artifactId>spring-jcl</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
         <version>${spring.version}</version>
         <scope>test</scope>
@@ -284,6 +289,17 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-configuration2</artifactId>
         <version>2.7</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-text</artifactId>
+        <version>1.8</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.2</version>
+        <scope>provided</scope>
       </dependency>
 
       <dependency>
