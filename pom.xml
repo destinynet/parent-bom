@@ -402,10 +402,11 @@
         <version>1.5.0</version>
       </dependency>
 
-      <!--
-        https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
-        java 9 沒有 jaxb , mailApi
-      -->
+      <dependency>
+        <groupId>javax.ws.rs</groupId>
+        <artifactId>javax.ws.rs-api</artifactId>
+        <version>2.1.1</version>
+      </dependency>
       <dependency>
         <groupId>javax.xml.bind</groupId>
         <artifactId>jaxb-api</artifactId>
