@@ -26,6 +26,7 @@
     <guice.version>3.0</guice.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.7.0</junit-jupiter.version>
+    <ktor.version>1.4.1</ktor.version>
   </properties>
 
 
@@ -386,10 +387,27 @@
         <scope>runtime</scope>
       </dependency>
 
+
+      <dependency>
+        <groupId>io.ktor</groupId>
+        <artifactId>ktor-server-core</artifactId>
+        <version>${ktor.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.ktor</groupId>
+        <artifactId>ktor-server-netty</artifactId>
+        <version>${ktor.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.ktor</groupId>
+        <artifactId>ktor-html-builder</artifactId>
+        <version>${ktor.version}</version>
+      </dependency>
+
       <dependency>
         <groupId>io.ktor</groupId>
         <artifactId>ktor-client-okhttp</artifactId>
-        <version>1.4.1</version>
+        <version>${ktor.version}</version>
       </dependency>
       <dependency>
         <groupId>com.squareup.okhttp3</groupId>
