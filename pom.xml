@@ -60,8 +60,20 @@
         <version>${kotlin.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-test</artifactId>
+        <version>${kotlin.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
         <groupId>org.jetbrains.kotlinx</groupId>
         <artifactId>kotlinx-serialization-core</artifactId>
+        <version>${kotlin.serialization.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-core-jvm</artifactId>
         <version>${kotlin.serialization.version}</version>
       </dependency>
       <dependency>
@@ -70,10 +82,9 @@
         <version>${kotlin.serialization.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-test</artifactId>
-        <version>${kotlin.version}</version>
-        <scope>test</scope>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-json-jvm</artifactId>
+        <version>${kotlin.serialization.version}</version>
       </dependency>
 
 
