@@ -200,6 +200,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>chat-bots</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>chat-tools</artifactId>
         <version>${destiny.version}</version>
       </dependency>
