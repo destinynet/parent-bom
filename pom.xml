@@ -16,7 +16,7 @@
 
   <properties>
     <destiny.version>0.0.1</destiny.version>
-    <kotlin.version>1.4.20</kotlin.version>
+    <kotlin.version>1.4.21</kotlin.version>
     <kotlin.serialization.version>1.0.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.4.2</kotlin.coroutine.version>
     <spring.version>5.2.9.RELEASE</spring.version>
@@ -444,6 +444,12 @@
         <artifactId>ktor-client-apache</artifactId>
         <version>${ktor.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.ktor</groupId>
+        <artifactId>ktor-client-logging-jvm</artifactId>
+        <version>${ktor.version}</version>
+      </dependency>
+
 
       <dependency>
         <groupId>io.ktor</groupId>
