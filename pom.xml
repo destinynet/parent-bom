@@ -27,7 +27,7 @@
     <guice.version>3.0</guice.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.7.0</junit-jupiter.version>
-    <ktor.version>1.4.3</ktor.version>
+    <ktor.version>1.5.0</ktor.version>
   </properties>
 
 
