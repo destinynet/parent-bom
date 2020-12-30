@@ -282,6 +282,14 @@
         <version>2.2.5.RELEASE</version>
       </dependency>
 
+      <!-- 2020/12 -->
+      <dependency>
+        <groupId>org.springframework.batch</groupId>
+        <artifactId>spring-batch-core</artifactId>
+        <version>4.3.1</version>
+      </dependency>
+
+
 
       <!-- hibernate 相關 -->
       <dependency>
