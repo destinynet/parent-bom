@@ -20,6 +20,7 @@
     <kotlin.serialization.version>1.0.1</kotlin.serialization.version>
     <kotlin.coroutine.version>1.4.2</kotlin.coroutine.version>
     <spring.version>5.2.9.RELEASE</spring.version>
+    <spring.batch.version>4.3.1</spring.batch.version>
     <slf4j.version>1.7.28</slf4j.version>
     <hibernate.version>5.4.13.Final</hibernate.version>
     <mysql.version>8.0.22</mysql.version>
@@ -286,8 +287,15 @@
       <dependency>
         <groupId>org.springframework.batch</groupId>
         <artifactId>spring-batch-core</artifactId>
-        <version>4.3.1</version>
+        <version>${spring.batch.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.springframework.batch</groupId>
+        <artifactId>spring-batch-test</artifactId>
+        <version>${spring.batch.version}</version>
+        <scope>test</scope>
+      </dependency>
+
 
 
 
