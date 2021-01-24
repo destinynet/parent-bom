@@ -23,7 +23,7 @@
     <spring.batch.version>4.3.1</spring.batch.version>
     <slf4j.version>1.7.28</slf4j.version>
     <hibernate.version>5.4.13.Final</hibernate.version>
-    <mysql.version>8.0.22</mysql.version>
+    <mysql.version>8.0.23</mysql.version>
     <httpclient.version>4.5.13</httpclient.version>
     <guice.version>3.0</guice.version>
     <javamail.version>1.6.2</javamail.version>
@@ -202,11 +202,6 @@
       <dependency>
         <groupId>destiny</groupId>
         <artifactId>chat-bots</artifactId>
-        <version>${destiny.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>destiny</groupId>
-        <artifactId>chat-tools</artifactId>
         <version>${destiny.version}</version>
       </dependency>
       <dependency>
