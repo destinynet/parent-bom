@@ -16,7 +16,7 @@
 
   <properties>
     <destiny.version>0.0.1</destiny.version>
-    <kotlin.version>1.4.21</kotlin.version>
+    <kotlin.version>1.4.30</kotlin.version>
     <kotlin.serialization.version>1.0.1</kotlin.serialization.version>
     <kotlin.coroutine.version>1.4.2</kotlin.coroutine.version>
     <spring.version>5.2.9.RELEASE</spring.version>
@@ -27,8 +27,8 @@
     <httpclient.version>4.5.13</httpclient.version>
     <guice.version>3.0</guice.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>5.7.0</junit-jupiter.version>
-    <ktor.version>1.5.0</ktor.version>
+    <junit-jupiter.version>5.7.1</junit-jupiter.version>
+    <ktor.version>1.5.1</ktor.version>
   </properties>
 
 
@@ -144,7 +144,7 @@
       <dependency>
         <groupId>io.mockk</groupId>
         <artifactId>mockk</artifactId>
-        <version>1.10.2</version>
+        <version>1.10.5</version>
         <scope>test</scope>
       </dependency>
 
@@ -527,11 +527,7 @@
         <artifactId>javax.ws.rs-api</artifactId>
         <version>2.1.1</version>
       </dependency>
-      <dependency>
-        <groupId>javax.xml.bind</groupId>
-        <artifactId>jaxb-api</artifactId>
-        <version>2.3.1</version>
-      </dependency>
+
 
       <!-- javax.mail-api contains only interfaces -->
       <dependency>
@@ -561,7 +557,7 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>8.12.15</version>
+        <version>8.12.18</version>
       </dependency>
 
       <dependency>
