@@ -92,14 +92,20 @@
       </dependency>
       <dependency>
         <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-json</artifactId>
-        <version>${kotlin.serialization.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlinx</groupId>
         <artifactId>kotlinx-serialization-json-jvm</artifactId>
         <version>${kotlin.serialization.version}</version>
       </dependency>
+
+<!--      <dependency>-->
+<!--        <groupId>org.jetbrains.kotlinx</groupId>-->
+<!--        <artifactId>kotlinx-serialization-json</artifactId>-->
+<!--        <version>${kotlin.serialization.version}</version>-->
+<!--        <type>pom</type>-->
+<!--        <scope>import</scope>-->
+<!--      </dependency>-->
+
+
+
 
 
       <dependency>
@@ -463,6 +469,11 @@
       <dependency>
         <groupId>io.ktor</groupId>
         <artifactId>ktor-client-logging-jvm</artifactId>
+        <version>${ktor.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.ktor</groupId>
+        <artifactId>ktor-client-serialization</artifactId>
         <version>${ktor.version}</version>
       </dependency>
 
