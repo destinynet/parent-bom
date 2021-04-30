@@ -16,9 +16,9 @@
 
   <properties>
     <destiny.version>0.0.1</destiny.version>
-    <kotlin.version>1.4.30</kotlin.version>
-    <kotlin.serialization.version>1.0.1</kotlin.serialization.version>
-    <kotlin.coroutine.version>1.4.2</kotlin.coroutine.version>
+    <kotlin.version>1.5.0</kotlin.version>
+    <kotlin.serialization.version>1.2.0</kotlin.serialization.version>
+    <kotlin.coroutine.version>1.4.3</kotlin.coroutine.version>
     <spring.version>5.2.9.RELEASE</spring.version>
     <spring.batch.version>4.3.1</spring.batch.version>
     <slf4j.version>1.7.28</slf4j.version>
@@ -28,7 +28,7 @@
     <guice.version>3.0</guice.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.7.1</junit-jupiter.version>
-    <ktor.version>1.5.1</ktor.version>
+    <ktor.version>1.5.3</ktor.version>
   </properties>
 
 
