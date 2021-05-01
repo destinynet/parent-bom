@@ -19,7 +19,7 @@
     <kotlin.version>1.5.0</kotlin.version>
     <kotlin.serialization.version>1.2.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.4.3</kotlin.coroutine.version>
-    <spring.version>5.2.9.RELEASE</spring.version>
+    <spring.version>5.3.6</spring.version>
     <spring.batch.version>4.3.1</spring.batch.version>
     <slf4j.version>1.7.28</slf4j.version>
     <hibernate.version>5.4.13.Final</hibernate.version>
