@@ -16,7 +16,7 @@
 
   <properties>
     <destiny.version>0.0.1</destiny.version>
-    <kotlin.version>1.5.10</kotlin.version>
+    <kotlin.version>1.5.20</kotlin.version>
     <kotlin.serialization.version>1.2.1</kotlin.serialization.version>
     <kotlin.coroutine.version>1.5.0</kotlin.coroutine.version>
     <spring.version>5.3.7</spring.version>
@@ -27,7 +27,7 @@
     <httpclient.version>4.5.13</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.7.1</junit-jupiter.version>
-    <ktor.version>1.6.0</ktor.version>
+    <ktor.version>1.6.1</ktor.version>
   </properties>
 
 
