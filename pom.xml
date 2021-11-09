@@ -21,13 +21,14 @@
     <kotlin.coroutine.version>1.5.2</kotlin.coroutine.version>
     <spring.version>5.3.12</spring.version>
     <spring.batch.version>4.3.3</spring.batch.version>
-    <slf4j.version>1.7.28</slf4j.version>
+    <slf4j.version>1.7.32</slf4j.version>
     <hibernate.version>5.4.32.Final</hibernate.version>
     <mysql.version>8.0.25</mysql.version>
     <httpclient.version>4.5.13</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.8.1</junit-jupiter.version>
     <ktor.version>1.6.4</ktor.version>
+    <testcontainers.version>1.16.2</testcontainers.version>
   </properties>
 
 
@@ -585,13 +586,26 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>8.12.25</version>
+        <version>8.12.36</version>
       </dependency>
 
       <dependency>
         <groupId>org.jooq</groupId>
         <artifactId>jool</artifactId>
         <version>0.9.14</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>testcontainers</artifactId>
+        <version>${testcontainers.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>localstack</artifactId>
+        <version>${testcontainers.version}</version>
+        <scope>test</scope>
       </dependency>
 
       <dependency>
