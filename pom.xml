@@ -19,15 +19,15 @@
     <kotlin.version>1.6.10</kotlin.version>
     <kotlin.serialization.version>1.3.2</kotlin.serialization.version>
     <kotlin.coroutine.version>1.6.0</kotlin.coroutine.version>
-    <spring.version>5.3.15</spring.version>
-    <spring.batch.version>4.3.4</spring.batch.version>
+    <spring.version>5.3.17</spring.version>
+    <spring.batch.version>4.3.5</spring.batch.version>
     <slf4j.version>1.7.35</slf4j.version>
-    <hibernate.version>5.4.32.Final</hibernate.version>
+    <hibernate.version>5.6.7.Final</hibernate.version>
     <mysql.version>8.0.27</mysql.version>
     <httpclient.version>4.5.13</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.8.2</junit-jupiter.version>
-    <ktor.version>1.6.7</ktor.version>
+    <ktor.version>1.6.8</ktor.version>
     <testcontainers.version>1.16.3</testcontainers.version>
   </properties>
 
