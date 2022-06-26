@@ -586,6 +586,13 @@
         <groupId>org.ehcache</groupId>
         <artifactId>ehcache</artifactId>
         <version>3.10.0</version>
+        <exclusions>
+          <!-- 包含舊版 jaxb 連到 netbeans , 裡面沒有 artifact 了 -->
+          <exclusion>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
 
