@@ -223,7 +223,7 @@
       <dependency>
         <groupId>destiny</groupId>
         <artifactId>destiny-imageserver</artifactId>
-        <version>${destiny.version}</version>
+        <version>0.1</version>
       </dependency>
 
 
