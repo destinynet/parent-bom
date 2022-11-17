@@ -207,6 +207,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-springboot-tools</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-gauquelin</artifactId>
         <version>${destiny.version}</version>
       </dependency>
