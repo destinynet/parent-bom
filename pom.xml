@@ -197,17 +197,17 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-springweb</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-web</artifactId>
         <version>${destiny.version}</version>
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
         <artifactId>destiny-wicket</artifactId>
-        <version>${destiny.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>destiny</groupId>
-        <artifactId>destiny-springboot-tools</artifactId>
         <version>${destiny.version}</version>
       </dependency>
       <dependency>
