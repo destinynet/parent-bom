@@ -222,6 +222,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-chatbots</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>data-core</artifactId>
         <version>${destiny.version}</version>
       </dependency>
