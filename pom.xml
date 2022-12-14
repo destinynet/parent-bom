@@ -29,6 +29,7 @@
     <junit-jupiter.version>5.9.1</junit-jupiter.version>
     <ktor.version>2.1.3</ktor.version>
     <testcontainers.version>1.17.6</testcontainers.version>
+    <arrow.version>1.1.3</arrow.version>
   </properties>
 
 
@@ -542,6 +543,14 @@
         <groupId>com.squareup.moshi</groupId>
         <artifactId>moshi-kotlin</artifactId>
         <version>1.14.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.arrow-kt</groupId>
+        <artifactId>arrow-stack</artifactId>
+        <version>${arrow.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
 
 
