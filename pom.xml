@@ -16,7 +16,7 @@
 
   <properties>
     <destiny.version>0.0.1</destiny.version>
-    <kotlin.version>1.7.21</kotlin.version>
+    <kotlin.version>1.8.0</kotlin.version>
     <kotlin.serialization.version>1.4.1</kotlin.serialization.version>
     <kotlin.coroutine.version>1.6.4</kotlin.coroutine.version>
     <spring.version>5.3.24</spring.version>
@@ -27,7 +27,7 @@
     <httpclient.version>4.5.13</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.9.1</junit-jupiter.version>
-    <ktor.version>2.1.3</ktor.version>
+    <ktor.version>2.2.1</ktor.version>
     <testcontainers.version>1.17.6</testcontainers.version>
     <arrow.version>1.1.3</arrow.version>
   </properties>
@@ -39,11 +39,6 @@
       <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
         <artifactId>kotlin-stdlib</artifactId>
-        <version>${kotlin.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-stdlib-jdk8</artifactId>
         <version>${kotlin.version}</version>
       </dependency>
       <dependency>
@@ -69,17 +64,10 @@
       </dependency>
       <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-test-junit</artifactId>
-        <version>${kotlin.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
         <artifactId>kotlin-test-junit5</artifactId>
         <version>${kotlin.version}</version>
         <scope>test</scope>
       </dependency>
-
       <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
         <artifactId>kotlin-test</artifactId>
