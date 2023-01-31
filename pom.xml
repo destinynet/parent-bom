@@ -21,13 +21,13 @@
     <kotlin.coroutine.version>1.6.4</kotlin.coroutine.version>
     <spring.version>5.3.24</spring.version>
     <spring.batch.version>4.3.6</spring.batch.version>
-    <slf4j.version>1.7.36</slf4j.version>
+    <slf4j.version>2.0.6</slf4j.version>
     <hibernate.version>5.6.8.Final</hibernate.version>
-    <mysql.version>8.0.31</mysql.version>
-    <httpclient.version>4.5.13</httpclient.version>
+    <mysql.version>8.0.32</mysql.version>
+    <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>5.9.1</junit-jupiter.version>
-    <ktor.version>2.2.1</ktor.version>
+    <junit-jupiter.version>5.9.2</junit-jupiter.version>
+    <ktor.version>2.2.2</ktor.version>
     <testcontainers.version>1.17.6</testcontainers.version>
     <arrow.version>1.1.3</arrow.version>
   </properties>
@@ -110,7 +110,7 @@
       <dependency>
         <groupId>org.jetbrains</groupId>
         <artifactId>annotations</artifactId>
-        <version>23.0.0</version>
+        <version>24.0.0</version>
       </dependency>
       <dependency>
         <groupId>junit</groupId>
@@ -139,7 +139,7 @@
       <dependency>
         <groupId>io.mockk</groupId>
         <artifactId>mockk-jvm</artifactId>
-        <version>1.13.2</version>
+        <version>1.13.4</version>
         <scope>test</scope>
       </dependency>
 
@@ -218,11 +218,6 @@
         <groupId>destiny</groupId>
         <artifactId>data-core</artifactId>
         <version>${destiny.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>destiny</groupId>
-        <artifactId>destiny-imageserver</artifactId>
-        <version>0.1</version>
       </dependency>
 
 
@@ -418,7 +413,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents.client5</groupId>
         <artifactId>httpclient5</artifactId>
-        <version>5.2</version>
+        <version>5.2.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
@@ -441,13 +436,13 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.2.11</version>
+        <version>1.4.5</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
         <groupId>io.github.microutils</groupId>
         <artifactId>kotlin-logging-jvm</artifactId>
-        <version>2.1.23</version>
+        <version>3.0.4</version>
       </dependency>
 
       <dependency>
@@ -459,7 +454,7 @@
       <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjweaver</artifactId>
-        <version>1.9.9.1</version>
+        <version>1.9.19</version>
         <scope>runtime</scope>
       </dependency>
 
@@ -566,7 +561,7 @@
       <dependency>
         <groupId>joda-time</groupId>
         <artifactId>joda-time</artifactId>
-        <version>2.12.1</version>
+        <version>2.12.2</version>
       </dependency>
       <dependency>
         <groupId>com.github.kittinunf.fuel</groupId>
@@ -576,7 +571,7 @@
       <dependency>
         <groupId>org.threeten</groupId>
         <artifactId>threeten-extra</artifactId>
-        <version>1.7.1</version>
+        <version>1.7.2</version>
       </dependency>
 
       <dependency>
@@ -621,7 +616,7 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>8.13.0</version>
+        <version>8.13.5</version>
       </dependency>
 
       <dependency>
@@ -646,7 +641,7 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
-        <version>1.12.367</version>
+        <version>1.12.396</version>
         <scope>test</scope>
       </dependency>
 
