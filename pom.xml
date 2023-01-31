@@ -21,7 +21,7 @@
     <kotlin.coroutine.version>1.6.4</kotlin.coroutine.version>
     <spring.version>5.3.24</spring.version>
     <spring.batch.version>4.3.6</spring.batch.version>
-    <slf4j.version>2.0.6</slf4j.version>
+    <slf4j.version>1.7.36</slf4j.version>
     <hibernate.version>5.6.8.Final</hibernate.version>
     <mysql.version>8.0.32</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
@@ -436,13 +436,13 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.4.5</version>
+        <version>1.2.11</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
         <groupId>io.github.microutils</groupId>
         <artifactId>kotlin-logging-jvm</artifactId>
-        <version>3.0.4</version>
+        <version>2.1.23</version>
       </dependency>
 
       <dependency>
