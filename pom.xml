@@ -19,11 +19,10 @@
     <kotlin.version>1.9.0</kotlin.version>
     <kotlin.serialization.version>1.5.1</kotlin.serialization.version>
     <kotlin.coroutine.version>1.7.2</kotlin.coroutine.version>
-    <spring.version>6.0.10</spring.version>
+    <spring.version>6.0.11</spring.version>
     <spring.batch.version>5.0.2</spring.batch.version>
-    <spring.security.version>6.1.1</spring.security.version>
+    <spring.security.version>6.1.2</spring.security.version>
     <slf4j.version>2.0.7</slf4j.version>
-    <hibernate.version>5.6.8.Final</hibernate.version>
     <hibernate.orm.version>6.2.6.Final</hibernate.orm.version>
     <mysql.version>8.0.33</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
@@ -175,11 +174,6 @@
       <dependency>
         <groupId>destiny</groupId>
         <artifactId>destiny-tools</artifactId>
-        <version>${destiny.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>destiny</groupId>
-        <artifactId>destiny-ee</artifactId>
         <version>${destiny.version}</version>
       </dependency>
       <dependency>
@@ -354,35 +348,6 @@
       </dependency>
 
 
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-core</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-entitymanager</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-jcache</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate.validator</groupId>
-        <artifactId>hibernate-validator</artifactId>
-        <!-- 這裡並未與 core 同步 -->
-        <version>6.2.1.Final</version>
-        <scope>runtime</scope>
-      </dependency>
-
-
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-hikaricp</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
       <dependency>
         <groupId>com.zaxxer</groupId>
         <artifactId>HikariCP</artifactId>
@@ -660,7 +625,7 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>8.13.16</version>
+        <version>8.13.17</version>
       </dependency>
 
       <dependency>
@@ -685,7 +650,7 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
-        <version>1.12.505</version>
+        <version>1.12.510</version>
 <!--        <scope>test</scope>-->
       </dependency>
 
