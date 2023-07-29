@@ -18,7 +18,7 @@
     <destiny.version>0.0.1</destiny.version>
     <kotlin.version>1.9.0</kotlin.version>
     <kotlin.serialization.version>1.5.1</kotlin.serialization.version>
-    <kotlin.coroutine.version>1.7.2</kotlin.coroutine.version>
+    <kotlin.coroutine.version>1.7.3</kotlin.coroutine.version>
     <spring.version>6.0.11</spring.version>
     <spring.batch.version>5.0.2</spring.batch.version>
     <spring.security.version>6.1.2</spring.security.version>
@@ -27,7 +27,7 @@
     <mysql.version>8.0.33</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>5.9.3</junit-jupiter.version>
+    <junit-jupiter.version>5.10.0</junit-jupiter.version>
     <ktor.version>2.3.2</ktor.version>
     <testcontainers.version>1.18.3</testcontainers.version>
     <arrow.version>1.2.0</arrow.version>
@@ -407,7 +407,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.12.0</version>
+        <version>3.13.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -597,7 +597,7 @@
       <dependency>
         <groupId>com.github.ben-manes.caffeine</groupId>
         <artifactId>caffeine</artifactId>
-        <version>3.1.6</version>
+        <version>3.1.7</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId>
@@ -682,7 +682,7 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
-        <version>1.12.510</version>
+        <version>1.12.518</version>
 <!--        <scope>test</scope>-->
       </dependency>
 
