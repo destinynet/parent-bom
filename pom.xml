@@ -22,6 +22,7 @@
     <spring.version>6.0.13</spring.version>
     <spring.batch.version>5.0.3</spring.batch.version>
     <spring.security.version>6.1.5</spring.security.version>
+    <spring.amqp.version>3.1.1</spring.amqp.version>
     <slf4j.version>2.0.9</slf4j.version>
     <hibernate.orm.version>6.2.6.Final</hibernate.orm.version>
     <mysql.version>8.0.33</mysql.version>
@@ -291,6 +292,16 @@
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jpa</artifactId>
         <version>3.1.5</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.amqp</groupId>
+        <artifactId>spring-rabbit</artifactId>
+        <version>${spring.amqp.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.amqp</groupId>
+        <artifactId>spring-amqp</artifactId>
+        <version>${spring.amqp.version}</version>
       </dependency>
 
 
