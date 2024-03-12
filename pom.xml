@@ -23,12 +23,12 @@
     <spring.batch.version>5.0.3</spring.batch.version>
     <spring.security.version>6.1.5</spring.security.version>
     <spring.amqp.version>3.1.1</spring.amqp.version>
-    <slf4j.version>2.0.9</slf4j.version>
+    <slf4j.version>2.0.12</slf4j.version>
     <hibernate.orm.version>6.2.6.Final</hibernate.orm.version>
     <mysql.version>8.0.33</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>5.10.1</junit-jupiter.version>
+    <junit-jupiter.version>5.10.2</junit-jupiter.version>
     <ktor.version>2.3.6</ktor.version>
     <testcontainers.version>1.19.1</testcontainers.version>
     <arrow.version>1.2.1</arrow.version>
@@ -495,7 +495,7 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.4.14</version>
+        <version>1.5.3</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
