@@ -17,7 +17,7 @@
   <properties>
     <destiny.version>0.0.1</destiny.version>
     <kotlin.version>1.9.20</kotlin.version>
-    <kotlin.serialization.version>1.6.2</kotlin.serialization.version>
+    <kotlin.serialization.version>1.6.3</kotlin.serialization.version>
     <kotlin.coroutine.version>1.7.3</kotlin.coroutine.version>
     <spring.version>6.0.18</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
@@ -31,7 +31,7 @@
     <junit-jupiter.version>5.10.2</junit-jupiter.version>
     <ktor.version>2.3.6</ktor.version>
     <testcontainers.version>1.19.1</testcontainers.version>
-    <arrow.version>1.2.1</arrow.version>
+    <arrow.version>1.2.3</arrow.version>
     <!-- hibernate5 will be removed -->
     <hibernate.version>5.6.8.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
@@ -151,7 +151,7 @@
       <dependency>
         <groupId>io.mockk</groupId>
         <artifactId>mockk-jvm</artifactId>
-        <version>1.13.8</version>
+        <version>1.13.10</version>
         <scope>test</scope>
       </dependency>
 
@@ -440,7 +440,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-configuration2</artifactId>
-        <version>2.9.0</version>
+        <version>2.10.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -513,7 +513,7 @@
       <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjweaver</artifactId>
-        <version>1.9.19</version>
+        <version>1.9.21.2</version>
         <scope>runtime</scope>
       </dependency>
 
@@ -615,7 +615,7 @@
       <dependency>
         <groupId>org.jsoup</groupId>
         <artifactId>jsoup</artifactId>
-        <version>1.16.1</version>
+        <version>1.17.2</version>
       </dependency>
 
       <dependency>
@@ -642,7 +642,7 @@
       <dependency>
         <groupId>joda-time</groupId>
         <artifactId>joda-time</artifactId>
-        <version>2.12.5</version>
+        <version>2.12.7</version>
       </dependency>
       <dependency>
         <groupId>org.threeten</groupId>
