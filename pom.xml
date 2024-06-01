@@ -30,7 +30,7 @@
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.10.2</junit-jupiter.version>
     <ktor.version>2.3.6</ktor.version>
-    <testcontainers.version>1.19.1</testcontainers.version>
+    <testcontainers.version>1.19.8</testcontainers.version>
     <arrow.version>1.2.3</arrow.version>
     <!-- hibernate5 will be removed -->
     <hibernate.version>5.6.8.Final</hibernate.version>
