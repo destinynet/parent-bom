@@ -21,7 +21,7 @@
     <kotlin.coroutine.version>1.7.3</kotlin.coroutine.version>
     <spring.version>6.0.22</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
-    <spring.security.version>6.1.7</spring.security.version>
+    <spring.security.version>6.2.5</spring.security.version>
     <spring.amqp.version>3.1.6</spring.amqp.version>
     <slf4j.version>2.0.12</slf4j.version>
     <hibernate.orm.version>6.2.6.Final</hibernate.orm.version>
@@ -472,7 +472,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents.client5</groupId>
         <artifactId>httpclient5</artifactId>
-        <version>5.2.1</version>
+        <version>5.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
