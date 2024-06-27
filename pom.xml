@@ -368,27 +368,11 @@
         <version>${hibernate.orm.version}</version>
       </dependency>
 
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-core</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-entitymanager</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-jcache</artifactId>
-        <version>${hibernate.version}</version>
-      </dependency>
+
       <dependency>
         <groupId>org.hibernate.validator</groupId>
         <artifactId>hibernate-validator</artifactId>
-        <!-- 這裡並未與 core 同步 -->
-        <version>6.2.1.Final</version>
-        <scope>runtime</scope>
+        <version>8.0.1.Final</version>
       </dependency>
 
 
