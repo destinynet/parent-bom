@@ -23,6 +23,7 @@
     <spring.batch.version>5.0.5</spring.batch.version>
     <spring.security.version>6.2.5</spring.security.version>
     <spring.amqp.version>3.1.6</spring.amqp.version>
+    <spring.statemachine.version>4.0.0</spring.statemachine.version>
     <slf4j.version>2.0.12</slf4j.version>
     <hibernate.orm.version>6.2.28.Final</hibernate.orm.version>
     <mysql.version>8.0.33</mysql.version>
@@ -307,6 +308,11 @@
         <artifactId>spring-rabbit-test</artifactId>
         <version>${spring.amqp.version}</version>
         <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.statemachine</groupId>
+        <artifactId>spring-statemachine-core</artifactId>
+        <version>${spring.statemachine.version}</version>
       </dependency>
 
 
