@@ -19,7 +19,7 @@
     <kotlin.version>2.0.21</kotlin.version>
     <kotlin.serialization.version>1.8.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.10.1</kotlin.coroutine.version>
-    <spring.version>6.1.16</spring.version>
+    <spring.version>6.2.2</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
     <spring.security.version>6.4.2</spring.security.version>
     <spring.amqp.version>3.1.7</spring.amqp.version>
