@@ -22,11 +22,11 @@
     <spring.version>6.2.2</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
     <spring.security.version>6.4.2</spring.security.version>
-    <spring.amqp.version>3.1.7</spring.amqp.version>
+    <spring.amqp.version>3.2.2</spring.amqp.version>
     <spring.statemachine.version>4.0.0</spring.statemachine.version>
     <slf4j.version>2.0.12</slf4j.version>
     <hibernate.orm.version>6.5.3.Final</hibernate.orm.version>
-    <mysql.version>9.1.0</mysql.version>
+    <mysql.version>9.2.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.11.4</junit-jupiter.version>
@@ -36,7 +36,7 @@
     <!-- hibernate5 will be removed -->
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
-    <jackson.version>2.18.1</jackson.version>
+    <jackson.version>2.18.2</jackson.version>
   </properties>
 
   <build>
@@ -161,7 +161,7 @@
       <dependency>
         <groupId>io.mockk</groupId>
         <artifactId>mockk-jvm</artifactId>
-        <version>1.13.13</version>
+        <version>1.13.16</version>
         <scope>test</scope>
       </dependency>
 
@@ -413,7 +413,7 @@
       <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
-        <version>1.9.4</version>
+        <version>1.10.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -438,12 +438,12 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-text</artifactId>
-        <version>1.12.0</version>
+        <version>1.13.0</version>
       </dependency>
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.17.1</version>
+        <version>1.17.2</version>
       </dependency>
       <dependency>
         <groupId>commons-logging</groupId>
@@ -583,11 +583,7 @@
         <artifactId>okhttp</artifactId>
         <version>4.12.0</version>
       </dependency>
-      <dependency>
-        <groupId>com.squareup.moshi</groupId>
-        <artifactId>moshi-kotlin</artifactId>
-        <version>1.15.1</version>
-      </dependency>
+
 
       <dependency>
         <groupId>io.arrow-kt</groupId>
@@ -639,7 +635,7 @@
       <dependency>
         <groupId>com.github.ben-manes.caffeine</groupId>
         <artifactId>caffeine</artifactId>
-        <version>3.1.8</version>
+        <version>3.2.0</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId>
@@ -694,7 +690,7 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>8.13.49</version>
+        <version>8.13.53</version>
       </dependency>
 
       <dependency>
