@@ -16,7 +16,7 @@
 
   <properties>
     <destiny.version>0.0.1</destiny.version>
-    <kotlin.version>2.0.21</kotlin.version>
+    <kotlin.version>2.1.20</kotlin.version>
     <kotlin.serialization.version>1.8.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.10.1</kotlin.coroutine.version>
     <spring.version>6.2.2</spring.version>
