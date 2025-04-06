@@ -30,7 +30,7 @@
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.11.4</junit-jupiter.version>
-    <ktor.version>2.3.13</ktor.version>
+    <ktor.version>3.1.2</ktor.version>
     <testcontainers.version>1.20.4</testcontainers.version>
     <arrow.version>1.2.4</arrow.version>
     <!-- hibernate5 will be removed -->
