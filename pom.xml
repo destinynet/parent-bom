@@ -37,6 +37,7 @@
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jackson.version>2.18.2</jackson.version>
+    <graphql-kotlin.version>8.4.0</graphql-kotlin.version>
   </properties>
 
   <build>
@@ -739,6 +740,17 @@
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
         <version>1.12.780</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.expediagroup</groupId>
+        <artifactId>graphql-kotlin-schema-generator</artifactId>
+        <version>${graphql-kotlin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.expediagroup</groupId>
+        <artifactId>graphql-kotlin-spring-server</artifactId>
+        <version>${graphql-kotlin.version}</version>
       </dependency>
 
       <dependency>
