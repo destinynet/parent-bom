@@ -23,6 +23,7 @@
     <spring.batch.version>5.0.5</spring.batch.version>
     <spring.security.version>6.4.2</spring.security.version>
     <spring.amqp.version>3.2.2</spring.amqp.version>
+    <spring.cloud.version>4.2.1</spring.cloud.version>
     <spring.statemachine.version>4.0.0</spring.statemachine.version>
     <slf4j.version>2.0.12</slf4j.version>
     <hibernate.orm.version>6.5.3.Final</hibernate.orm.version>
@@ -37,7 +38,6 @@
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jackson.version>2.18.2</jackson.version>
-    <graphql-kotlin.version>8.4.0</graphql-kotlin.version>
   </properties>
 
   <build>
@@ -330,6 +330,18 @@
         <groupId>org.springframework.statemachine</groupId>
         <artifactId>spring-statemachine-core</artifactId>
         <version>${spring.statemachine.version}</version>
+      </dependency>
+
+      <!-- spring cloud -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-openfeign-core</artifactId>
+        <version>${spring.cloud.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-openfeign</artifactId>
+        <version>${spring.cloud.version}</version>
       </dependency>
 
 
@@ -740,17 +752,6 @@
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
         <version>1.12.780</version>
-      </dependency>
-
-      <dependency>
-        <groupId>com.expediagroup</groupId>
-        <artifactId>graphql-kotlin-schema-generator</artifactId>
-        <version>${graphql-kotlin.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.expediagroup</groupId>
-        <artifactId>graphql-kotlin-spring-server</artifactId>
-        <version>${graphql-kotlin.version}</version>
       </dependency>
 
       <dependency>
