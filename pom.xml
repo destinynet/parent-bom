@@ -6,7 +6,7 @@
 
   <groupId>destiny</groupId>
   <artifactId>parent-bom</artifactId>
-  <version>0.0.1</version>
+  <version>${destiny.version}</version>
   <packaging>pom</packaging>
 
   <organization>
@@ -15,7 +15,7 @@
   </organization>
 
   <properties>
-    <destiny.version>0.0.1</destiny.version>
+    <destiny.version>0.0.1-SNAPSHOT</destiny.version>
     <kotlin.version>2.1.20</kotlin.version>
     <kotlin.serialization.version>1.8.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.10.2</kotlin.coroutine.version>
@@ -45,6 +45,16 @@
 
   <build>
     <sourceDirectory>src/main/kotlin</sourceDirectory>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.1.4</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
   </build>
 
   <dependencyManagement>
@@ -865,4 +875,14 @@
     </dependencies>
   </dependencyManagement>
 
+  <distributionManagement>
+    <repository>
+      <id>gar</id>
+      <url>artifactregistry://asia-east1-maven.pkg.dev/destinyapp/destinyapp-maven</url>
+    </repository>
+    <snapshotRepository>
+      <id>gar</id>
+      <url>artifactregistry://asia-east1-maven.pkg.dev/destinyapp/destinyapp-maven</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
