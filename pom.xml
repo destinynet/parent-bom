@@ -16,29 +16,29 @@
 
   <properties>
     <destiny.version>0.0.1-SNAPSHOT</destiny.version>
-    <kotlin.version>2.1.20</kotlin.version>
-    <kotlin.serialization.version>1.8.0</kotlin.serialization.version>
+    <kotlin.version>2.2.21</kotlin.version>
+    <kotlin.serialization.version>1.9.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.10.2</kotlin.coroutine.version>
     <spring.version>6.2.2</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
     <spring.security.version>6.4.2</spring.security.version>
     <spring.amqp.version>3.2.2</spring.amqp.version>
     <spring.cloud.version>4.2.1</spring.cloud.version>
-    <spring.statemachine.version>4.0.0</spring.statemachine.version>
+    <spring.statemachine.version>4.0.1</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
     <hibernate.orm.version>6.5.3.Final</hibernate.orm.version>
-    <mysql.version>9.2.0</mysql.version>
+    <mysql.version>9.5.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
     <junit-jupiter.version>5.11.4</junit-jupiter.version>
-    <ktor.version>3.1.2</ktor.version>
-    <testcontainers.version>1.20.6</testcontainers.version>
+    <ktor.version>3.3.3</ktor.version>
+    <testcontainers.version>1.21.3</testcontainers.version>
     <arrow.version>1.2.4</arrow.version>
     <!-- hibernate5 will be removed -->
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
-    <jackson.version>2.18.2</jackson.version>
-    <kobweb.version>0.21.1</kobweb.version>
+    <jackson.version>2.20.1</jackson.version>
+    <kobweb.version>0.23.3</kobweb.version>
     <compose.version>1.7.3</compose.version>
     <feign.version>13.6</feign.version>
   </properties>
@@ -157,7 +157,7 @@
       <dependency>
         <groupId>org.jetbrains</groupId>
         <artifactId>annotations</artifactId>
-        <version>26.0.1</version>
+        <version>26.0.2-1</version>
       </dependency>
       <dependency>
         <groupId>junit</groupId>
@@ -186,7 +186,7 @@
       <dependency>
         <groupId>io.mockk</groupId>
         <artifactId>mockk-jvm</artifactId>
-        <version>1.13.16</version>
+        <version>1.14.7</version>
         <scope>test</scope>
       </dependency>
 
@@ -469,7 +469,7 @@
       <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
-        <version>1.2.24</version>
+        <version>1.2.27</version>
       </dependency>
 
 
@@ -483,12 +483,12 @@
       <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
-        <version>1.10.0</version>
+        <version>1.11.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.19.0</version>
+        <version>3.20.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -498,27 +498,27 @@
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.18.0</version>
+        <version>2.21.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-configuration2</artifactId>
-        <version>2.11.0</version>
+        <version>2.13.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-text</artifactId>
-        <version>1.13.0</version>
+        <version>1.15.0</version>
       </dependency>
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.17.2</version>
+        <version>1.20.0</version>
       </dependency>
       <dependency>
         <groupId>commons-logging</groupId>
         <artifactId>commons-logging</artifactId>
-        <version>1.3.4</version>
+        <version>1.3.5</version>
         <scope>provided</scope>
       </dependency>
 
@@ -563,7 +563,7 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.5.16</version>
+        <version>1.5.21</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
@@ -581,13 +581,13 @@
       <dependency>
         <groupId>org.postgresql</groupId>
         <artifactId>postgresql</artifactId>
-        <version>42.7.5</version>
+        <version>42.7.8</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjweaver</artifactId>
-        <version>1.9.22.1</version>
+        <version>1.9.25</version>
         <scope>runtime</scope>
       </dependency>
 
@@ -723,13 +723,13 @@
       <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20240303</version>
+        <version>20250517</version>
       </dependency>
 
       <dependency>
         <groupId>org.jsoup</groupId>
         <artifactId>jsoup</artifactId>
-        <version>1.18.3</version>
+        <version>1.21.2</version>
       </dependency>
 
       <dependency>
@@ -751,12 +751,12 @@
       <dependency>
         <groupId>com.github.ben-manes.caffeine</groupId>
         <artifactId>caffeine</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.3</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId>
         <artifactId>joda-time</artifactId>
-        <version>2.13.0</version>
+        <version>2.14.0</version>
       </dependency>
       <dependency>
         <groupId>org.threeten</groupId>
@@ -792,7 +792,7 @@
       <dependency>
         <groupId>org.ehcache</groupId>
         <artifactId>ehcache</artifactId>
-        <version>3.10.8</version>
+        <version>3.11.1</version>
         <exclusions>
           <!-- 包含舊版 jaxb 連到 netbeans , 裡面沒有 artifact 了 -->
           <exclusion>
@@ -804,14 +804,14 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-csv</artifactId>
-        <version>1.13.0</version>
+        <version>1.14.1</version>
       </dependency>
 
 
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>8.13.53</version>
+        <version>9.0.20</version>
       </dependency>
 
       <dependency>
@@ -823,7 +823,7 @@
       <dependency>
         <groupId>com.jayway.jsonpath</groupId>
         <artifactId>json-path</artifactId>
-        <version>2.9.0</version>
+        <version>2.10.0</version>
       </dependency>
 
       <dependency>
@@ -842,13 +842,13 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
-        <version>1.12.780</version>
+        <version>1.12.794</version>
       </dependency>
 
       <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-core</artifactId>
-        <version>4.0.5</version>
+        <version>4.0.6</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
