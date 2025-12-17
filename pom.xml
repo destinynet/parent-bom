@@ -22,7 +22,7 @@
     <spring.version>7.0.2</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
     <spring.security.version>7.0.2</spring.security.version>
-    <spring.amqp.version>3.2.2</spring.amqp.version>
+    <spring.amqp.version>4.0.1</spring.amqp.version>
     <spring.cloud.version>4.2.1</spring.cloud.version>
     <spring.statemachine.version>4.0.1</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
@@ -338,6 +338,12 @@
         <artifactId>spring-statemachine-core</artifactId>
         <version>${spring.statemachine.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.projectreactor</groupId>
+        <artifactId>reactor-core</artifactId>
+        <version>3.8.1</version>
+      </dependency>
+
 
       <!-- spring cloud -->
       <dependency>
