@@ -16,12 +16,12 @@
 
   <properties>
     <destiny.version>0.0.1-SNAPSHOT</destiny.version>
-    <kotlin.version>2.2.21</kotlin.version>
+    <kotlin.version>2.3.0</kotlin.version>
     <kotlin.serialization.version>1.9.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.10.2</kotlin.coroutine.version>
-    <spring.version>6.2.2</spring.version>
+    <spring.version>7.0.2</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
-    <spring.security.version>6.4.2</spring.security.version>
+    <spring.security.version>7.0.2</spring.security.version>
     <spring.amqp.version>3.2.2</spring.amqp.version>
     <spring.cloud.version>4.2.1</spring.cloud.version>
     <spring.statemachine.version>4.0.1</spring.statemachine.version>
@@ -30,11 +30,10 @@
     <mysql.version>9.5.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>5.11.4</junit-jupiter.version>
+    <junit-jupiter.version>6.0.1</junit-jupiter.version>
     <ktor.version>3.3.3</ktor.version>
-    <testcontainers.version>1.21.3</testcontainers.version>
-    <arrow.version>1.2.4</arrow.version>
-    <!-- hibernate5 will be removed -->
+    <testcontainers.version>1.21.4</testcontainers.version>
+    <arrow.version>2.2.1.1</arrow.version>
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jackson.version>2.20.1</jackson.version>
@@ -75,15 +74,16 @@
         <artifactId>kotlin-stdlib-js</artifactId>
         <version>${kotlin.version}</version>
       </dependency>
+
       <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-test-junit5</artifactId>
+        <artifactId>kotlin-test</artifactId>
         <version>${kotlin.version}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-test</artifactId>
+        <artifactId>kotlin-test-junit5</artifactId>
         <version>${kotlin.version}</version>
         <scope>test</scope>
       </dependency>
@@ -160,28 +160,11 @@
         <version>26.0.2-1</version>
       </dependency>
       <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
         <version>${junit-jupiter.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>${junit-jupiter.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-params</artifactId>
-        <version>${junit-jupiter.version}</version>
-        <scope>test</scope>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>io.mockk</groupId>
@@ -311,11 +294,6 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-jcl</artifactId>
         <version>${spring.version}</version>
       </dependency>
       <dependency>
@@ -535,7 +513,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents.client5</groupId>
         <artifactId>httpclient5</artifactId>
-        <version>5.4.1</version>
+        <version>5.4.3</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
@@ -563,7 +541,7 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.5.21</version>
+        <version>1.5.22</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
@@ -587,7 +565,7 @@
       <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjweaver</artifactId>
-        <version>1.9.25</version>
+        <version>1.9.25.1</version>
         <scope>runtime</scope>
       </dependency>
 
@@ -746,7 +724,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>33.4.0-jre</version>
+        <version>33.5.0-jre</version>
       </dependency>
       <dependency>
         <groupId>com.github.ben-manes.caffeine</groupId>
@@ -811,7 +789,7 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>9.0.20</version>
+        <version>9.0.21</version>
       </dependency>
 
       <dependency>
