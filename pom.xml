@@ -26,7 +26,7 @@
     <spring.cloud.version>4.2.1</spring.cloud.version>
     <spring.statemachine.version>4.0.1</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
-    <hibernate.orm.version>7.0.2.Final</hibernate.orm.version>
+    <hibernate.orm.version>7.2.0.Final</hibernate.orm.version>
     <mysql.version>9.5.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
@@ -315,7 +315,7 @@
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jpa</artifactId>
-        <version>3.4.2</version>
+        <version>4.0.1</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.amqp</groupId>
@@ -383,6 +383,11 @@
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-web</artifactId>
+        <version>${spring.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-oauth2-client</artifactId>
         <version>${spring.security.version}</version>
       </dependency>
       <dependency>
