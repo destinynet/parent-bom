@@ -36,7 +36,8 @@
     <arrow.version>2.2.1.1</arrow.version>
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
-    <jackson.version>2.20.1</jackson.version>
+    <jackson2.version>2.20.1</jackson2.version>
+    <jackson3.version>3.0.3</jackson3.version>
     <kobweb.version>0.23.3</kobweb.version>
     <compose.version>1.7.3</compose.version>
     <feign.version>13.6</feign.version>
@@ -91,11 +92,6 @@
       <dependency>
         <groupId>org.jetbrains.kotlinx</groupId>
         <artifactId>kotlinx-coroutines-core</artifactId>
-        <version>${kotlin.coroutine.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-coroutines-jdk8</artifactId>
         <version>${kotlin.coroutine.version}</version>
       </dependency>
       <dependency>
@@ -724,12 +720,28 @@
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jdk8</artifactId>
-        <version>${jackson.version}</version>
+        <version>${jackson2.version}</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-kotlin</artifactId>
-        <version>${jackson.version}</version>
+        <version>${jackson2.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>tools.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>${jackson3.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>tools.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson3.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>tools.jackson.module</groupId>
+        <artifactId>jackson-module-kotlin</artifactId>
+        <version>${jackson3.version}</version>
       </dependency>
 
       <dependency>
