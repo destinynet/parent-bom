@@ -878,6 +878,13 @@
         <scope>provided</scope>
       </dependency>
 
+      <!-- Spring Data JPA 4.x requires jspecify 1.0.0; lock version to prevent closure-compiler's 0.2.0 from winning by nearness -->
+      <dependency>
+        <groupId>org.jspecify</groupId>
+        <artifactId>jspecify</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
