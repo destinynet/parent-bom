@@ -172,6 +172,11 @@
 
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-ai</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-core</artifactId>
         <version>${destiny.version}</version>
       </dependency>
