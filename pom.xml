@@ -192,6 +192,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-service-base</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-resources</artifactId>
         <version>${destiny.version}</version>
       </dependency>
