@@ -197,6 +197,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-service-recommender</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-data</artifactId>
         <version>${destiny.version}</version>
       </dependency>
