@@ -16,31 +16,30 @@
 
   <properties>
     <destiny.version>0.0.1-SNAPSHOT</destiny.version>
-    <kotlin.version>2.3.0</kotlin.version>
-    <kotlin.serialization.version>1.9.0</kotlin.serialization.version>
-    <kotlin.coroutine.version>1.10.2</kotlin.coroutine.version>
-    <spring.version>7.0.2</spring.version>
+    <kotlin.version>2.4.0</kotlin.version>
+    <kotlin.serialization.version>1.11.0</kotlin.serialization.version>
+    <kotlin.coroutine.version>1.11.0</kotlin.coroutine.version>
+    <spring.version>7.0.8</spring.version>
     <spring.batch.version>5.0.5</spring.batch.version>
-    <spring.security.version>7.0.2</spring.security.version>
-    <spring.amqp.version>4.0.1</spring.amqp.version>
+    <spring.security.version>7.1.0</spring.security.version>
+    <spring.amqp.version>4.1.0</spring.amqp.version>
     <spring.cloud.version>5.0.0</spring.cloud.version>
-    <spring.statemachine.version>4.0.1</spring.statemachine.version>
+    <spring.statemachine.version>4.0.2</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
     <hibernate.orm.version>7.2.0.Final</hibernate.orm.version>
     <mysql.version>9.5.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>6.0.1</junit-jupiter.version>
-    <ktor.version>3.3.3</ktor.version>
+    <junit-jupiter.version>6.1.0</junit-jupiter.version>
+    <ktor.version>3.5.0</ktor.version>
     <testcontainers.version>1.21.4</testcontainers.version>
-    <arrow.version>2.2.1.1</arrow.version>
+    <arrow.version>2.2.3</arrow.version>
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
-    <jackson2.version>2.20.1</jackson2.version>
+    <jackson2.version>2.22.0</jackson2.version>
     <jackson3.version>3.0.3</jackson3.version>
-    <kobweb.version>0.23.3</kobweb.version>
     <compose.version>1.7.3</compose.version>
-    <feign.version>13.6</feign.version>
+    <feign.version>13.13</feign.version>
   </properties>
 
   <build>
@@ -153,7 +152,7 @@
       <dependency>
         <groupId>org.jetbrains</groupId>
         <artifactId>annotations</artifactId>
-        <version>26.0.2-1</version>
+        <version>26.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.junit</groupId>
@@ -165,7 +164,7 @@
       <dependency>
         <groupId>io.mockk</groupId>
         <artifactId>mockk-jvm</artifactId>
-        <version>1.14.7</version>
+        <version>1.14.11</version>
         <scope>test</scope>
       </dependency>
 
@@ -367,7 +366,7 @@
       <dependency>
         <groupId>io.projectreactor</groupId>
         <artifactId>reactor-core</artifactId>
-        <version>3.8.1</version>
+        <version>3.8.6</version>
       </dependency>
 
 
@@ -481,12 +480,6 @@
         <artifactId>HikariCP</artifactId>
         <version>6.2.1</version>
       </dependency>
-      <dependency>
-        <groupId>com.alibaba</groupId>
-        <artifactId>druid</artifactId>
-        <version>1.2.27</version>
-      </dependency>
-
 
       <dependency>
         <groupId>org.hibernate</groupId>
@@ -513,12 +506,12 @@
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.21.0</version>
+        <version>2.22.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-configuration2</artifactId>
-        <version>2.13.0</version>
+        <version>2.15.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -528,7 +521,7 @@
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.20.0</version>
+        <version>1.22.0</version>
       </dependency>
       <dependency>
         <groupId>commons-logging</groupId>
@@ -550,7 +543,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents.client5</groupId>
         <artifactId>httpclient5</artifactId>
-        <version>5.4.3</version>
+        <version>5.6.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
@@ -578,7 +571,7 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.5.22</version>
+        <version>1.5.34</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
@@ -596,7 +589,7 @@
       <dependency>
         <groupId>org.postgresql</groupId>
         <artifactId>postgresql</artifactId>
-        <version>42.7.8</version>
+        <version>42.7.11</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
@@ -700,17 +693,6 @@
         <scope>import</scope>
       </dependency>
 
-      <!-- Kobweb -->
-      <dependency>
-        <groupId>com.varabyte.kobweb</groupId>
-        <artifactId>kobweb-core</artifactId>
-        <version>${kobweb.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.varabyte.kobweb</groupId>
-        <artifactId>kobweb-silk</artifactId>
-        <version>${kobweb.version}</version>
-      </dependency>
 
       <dependency>
         <groupId>org.jetbrains.compose.html</groupId>
@@ -738,13 +720,13 @@
       <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20250517</version>
+        <version>20260522</version>
       </dependency>
 
       <dependency>
         <groupId>org.jsoup</groupId>
         <artifactId>jsoup</artifactId>
-        <version>1.21.2</version>
+        <version>1.22.2</version>
       </dependency>
 
       <dependency>
@@ -782,17 +764,17 @@
       <dependency>
         <groupId>com.github.ben-manes.caffeine</groupId>
         <artifactId>caffeine</artifactId>
-        <version>3.2.3</version>
+        <version>3.2.4</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId>
         <artifactId>joda-time</artifactId>
-        <version>2.14.0</version>
+        <version>2.14.2</version>
       </dependency>
       <dependency>
         <groupId>org.threeten</groupId>
         <artifactId>threeten-extra</artifactId>
-        <version>1.8.0</version>
+        <version>1.10.0</version>
       </dependency>
 
       <dependency>
@@ -823,7 +805,7 @@
       <dependency>
         <groupId>org.ehcache</groupId>
         <artifactId>ehcache</artifactId>
-        <version>3.11.1</version>
+        <version>3.12.0</version>
         <exclusions>
           <!-- 包含舊版 jaxb 連到 netbeans , 裡面沒有 artifact 了 -->
           <exclusion>
@@ -842,7 +824,7 @@
       <dependency>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber</artifactId>
-        <version>9.0.21</version>
+        <version>9.0.32</version>
       </dependency>
 
       <dependency>
@@ -873,13 +855,13 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-s3</artifactId>
-        <version>1.12.794</version>
+        <version>1.12.797</version>
       </dependency>
 
       <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-core</artifactId>
-        <version>4.0.6</version>
+        <version>4.0.9</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
