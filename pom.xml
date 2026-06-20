@@ -22,7 +22,7 @@
     <spring.version>7.0.8</spring.version>
     <spring.security.version>7.1.0</spring.security.version>
     <spring.amqp.version>4.1.0</spring.amqp.version>
-    <spring.cloud.version>5.0.0</spring.cloud.version>
+    <spring.cloud.version>5.0.2</spring.cloud.version>
     <spring.statemachine.version>4.0.2</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
     <hibernate.orm.version>7.2.0.Final</hibernate.orm.version>
