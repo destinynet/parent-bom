@@ -22,21 +22,21 @@
     <spring.version>7.0.8</spring.version>
     <spring.security.version>7.1.0</spring.security.version>
     <spring.amqp.version>4.1.0</spring.amqp.version>
-    <spring.cloud.version>5.0.2</spring.cloud.version>
+    <spring.cloud.version>5.0.3</spring.cloud.version>
     <spring.statemachine.version>4.0.2</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
     <hibernate.orm.version>7.2.0.Final</hibernate.orm.version>
     <mysql.version>9.7.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
-    <junit-jupiter.version>6.1.0</junit-jupiter.version>
-    <ktor.version>3.5.0</ktor.version>
+    <junit-jupiter.version>6.1.1</junit-jupiter.version>
+    <ktor.version>3.5.1</ktor.version>
     <testcontainers.version>1.21.4</testcontainers.version>
     <arrow.version>2.2.3</arrow.version>
     <hibernate.version>5.6.15.Final</hibernate.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jackson2.version>2.22.0</jackson2.version>
-    <jackson3.version>3.0.3</jackson3.version>
+    <jackson3.version>3.2.0</jackson3.version>
     <compose.version>1.11.1</compose.version>
     <feign.version>13.13</feign.version>
   </properties>
