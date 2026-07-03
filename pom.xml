@@ -26,6 +26,7 @@
     <spring.statemachine.version>4.0.2</spring.statemachine.version>
     <slf4j.version>2.0.17</slf4j.version>
     <hibernate.orm.version>7.2.0.Final</hibernate.orm.version>
+    <jboss.logging.version>3.6.1.Final</jboss.logging.version>
     <mysql.version>9.7.0</mysql.version>
     <httpclient.version>4.5.14</httpclient.version>
     <javamail.version>1.6.2</javamail.version>
@@ -434,6 +435,17 @@
         <groupId>org.hibernate.orm</groupId>
         <artifactId>hibernate-core</artifactId>
         <version>${hibernate.orm.version}</version>
+      </dependency>
+      <!--
+        Pin jboss-logging: hibernate-core 7.2 calls
+        Logger.getMessageLogger(MethodHandles.Lookup, Class, String) added in 3.6.0.
+        Without this pin, Maven nearest-wins selects the ancient 3.1.4.GA pulled in via
+        tess4j -> jboss-vfs, causing NoSuchMethodError when building the EntityManagerFactory.
+      -->
+      <dependency>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging</artifactId>
+        <version>${jboss.logging.version}</version>
       </dependency>
       <dependency>
         <groupId>org.hibernate.orm</groupId>
