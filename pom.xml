@@ -186,6 +186,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-charts-web</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-core-impl</artifactId>
         <version>${destiny.version}</version>
       </dependency>
