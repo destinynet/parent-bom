@@ -637,6 +637,12 @@
         <artifactId>ktor-client-logging-jvm</artifactId>
         <version>${ktor.version}</version>
       </dependency>
+      <!-- 測試用:攔截 HttpClient 送出的請求，免打真實網路 -->
+      <dependency>
+        <groupId>io.ktor</groupId>
+        <artifactId>ktor-client-mock-jvm</artifactId>
+        <version>${ktor.version}</version>
+      </dependency>
       <dependency>
         <groupId>io.ktor</groupId>
         <artifactId>ktor-client-serialization</artifactId>
