@@ -454,8 +454,11 @@
       <!--
         Pin jboss-logging: hibernate-core 7.2 calls
         Logger.getMessageLogger(MethodHandles.Lookup, Class, String) added in 3.6.0.
-        Without this pin, Maven nearest-wins selects the ancient 3.1.4.GA pulled in via
-        tess4j -> jboss-vfs, causing NoSuchMethodError when building the EntityManagerFactory.
+        The offender that made this mandatory (tess4j -> jboss-vfs, which dragged in the ancient
+        3.1.4.GA and won by nearest-wins, causing NoSuchMethodError when building the
+        EntityManagerFactory) is gone as of 2026-09-08. The pin stays as a floor: any future
+        dependency that brings a pre-3.6 jboss-logging would resurrect the same failure, and it
+        surfaces only at runtime.
       -->
       <dependency>
         <groupId>org.jboss.logging</groupId>
