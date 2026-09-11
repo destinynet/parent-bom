@@ -19,6 +19,7 @@
     <kotlin.version>2.4.0</kotlin.version>
     <kotlin.serialization.version>1.11.0</kotlin.serialization.version>
     <kotlin.coroutine.version>1.11.0</kotlin.coroutine.version>
+    <kotlinx.html.version>0.12.0</kotlinx.html.version>
     <spring.version>7.0.8</spring.version>
     <spring.security.version>7.1.0</spring.security.version>
     <spring.amqp.version>4.1.0</spring.amqp.version>
@@ -130,6 +131,20 @@
         <groupId>org.jetbrains.kotlinx</groupId>
         <artifactId>kotlinx-serialization-properties</artifactId>
         <version>${kotlin.serialization.version}</version>
+      </dependency>
+
+      <!--
+        kotlinx.html —— view 層的 HTML DSL（destiny-data / -service-base /
+        -service-commercial / -service-matching / -springboot 都在用）。
+        版本集中在這裡，各模組只宣告 groupId/artifactId 不帶 <version>。
+        ⚠️ 模組若自己寫死 <version>，那個值會蓋過這裡的 dependencyManagement
+        （Maven 的規則：直接宣告的顯式版本 > dependencyManagement > nearest-wins），
+        所以要換版本只能改這裡，別在模組 pom 補 <version>。
+      -->
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-html-jvm</artifactId>
+        <version>${kotlinx.html.version}</version>
       </dependency>
 
 
