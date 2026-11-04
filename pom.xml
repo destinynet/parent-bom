@@ -244,6 +244,11 @@
       </dependency>
       <dependency>
         <groupId>destiny</groupId>
+        <artifactId>destiny-service-mycharts</artifactId>
+        <version>${destiny.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>destiny</groupId>
         <artifactId>destiny-data</artifactId>
         <version>${destiny.version}</version>
       </dependency>
